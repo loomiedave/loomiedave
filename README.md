@@ -4,7 +4,7 @@
 - 💞️ I’m looking to collaborate on ... Anything that relates to coding
 - 📫 How to reach me ... ohlumeeday@gmail.com
 - 😄 Pronouns: ... male
-- ⚡ Fun fact: ... love to learn lots of things . LOL
+- ⚡ Fun fact: ... unecessarily sarcastic.
 
 <!---
 loomiedave/loomiedave is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
