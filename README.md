@@ -1,4 +1,5 @@
 Welcome to my portfolio codebase — a living project that evolves with my growth as a developer. This isn't just a static portfolio. It's a digital representation of my programming journey, showcasing my ideas, experiments, and continuous improvement. Think of it as the part of my brain dedicated to web development, made tangible. The current design draws inspiration from Shadcn, Tailwind CSS, and chahndai.com, but it will transform as I incorporate new concepts from my ongoing learning. Feel free to use this code — just swap out my personal details for yours. Built with passion and curiosity. — Benjamin David
 
 ## License
+
 MIT License - see [LICENSE](LICENSE) file for details.

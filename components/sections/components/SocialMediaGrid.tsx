@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import { SOCIAL_CONFIG } from '@/config/site';
+import { SOCIAL_CONFIG } from '@/config/socials';
 
 interface gridProps {
   isVisible: boolean;

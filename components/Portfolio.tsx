@@ -5,18 +5,15 @@ import { useState, useEffect } from 'react';
 import { useScrollTrigger, scrollToSection } from '@/utils/scroll-utils';
 import { SITE_CONFIG } from '@/config/site';
 
-import GeometricNavigation from '@/components/ui/nav/GeometricNavigation';
+import GeometricNavigation from '@/components/ui/nav/Nav';
 import HeroSection from '@/components/sections/HeroSection';
 import AboutSection from '@/components/sections/AboutSection';
-import ProjectsSection from '@/components/sections/ProjectsSection';
-import ExperienceSection from '@/components/sections/ExperienceSection';
+import ProjectsSection from '@/components/sections/ExperienceSection';
+import ExperienceSection from '@/components/sections/ProjectSection';
 import ContactSection from '@/components/sections/ContactSection';
+import Line from './ui/Line';
 
-const Line = () => {
-  return <div className="absolute left-0 right-0 h-px bg-border"></div>;
-};
-
-const Portfolio = () => {
+export default function Portfolio() {
   const [activeSection, setActiveSection] = useState('hero');
   const visibleSections = useScrollTrigger();
 
@@ -40,7 +37,8 @@ const Portfolio = () => {
 
   return (
     <>
-      <div className="min-h-screen relative">
+      {/* <LiquidAss /> */}
+      <div className="min-h-screen relative pt-12 md:px-4">
         <GeometricNavigation
           activeSection={activeSection}
           onSectionClick={scrollToSection}
@@ -48,33 +46,30 @@ const Portfolio = () => {
         />
 
         <div className="absolute inset-0 pointer-events-none">
-          <div className="fixed left-8 top-0 bottom-0 w-px bg-border"></div>
-          <div className="fixed right-8 top-0 bottom-0 w-px bg-border"></div>
+          <div className="fixed left-4 md:left-8 z-10 top-0 bottom-0 w-px bg-border"></div>
+          <div className="fixed right-4 md:right-8 z-10 top-0 bottom-0 w-px bg-border"></div>
         </div>
 
-        <div className="mx-4 md:mx-8 lg:mx-16 my-12">
-          <Line />
-          <HeroSection isVisible={visibleSections.has('hero')} />
+        <Line />
 
-          <Line />
-          <AboutSection isVisible={visibleSections.has('about')} />
+        <HeroSection isVisible={visibleSections.has('hero')} />
 
-          <Line />
-          <ProjectsSection isVisible={visibleSections.has('projects')} />
+        <Line />
+        <AboutSection isVisible={visibleSections.has('about')} />
 
-          <Line />
+        <Line />
+        <ProjectsSection isVisible={visibleSections.has('projects')} />
 
-          <ExperienceSection isVisible={visibleSections.has('experience')} />
+        <Line />
 
-          <Line />
+        <ExperienceSection isVisible={visibleSections.has('experience')} />
 
-          <ContactSection isVisible={visibleSections.has('contact')} />
+        <Line />
 
-          <Line />
-        </div>
+        <ContactSection isVisible={visibleSections.has('contact')} />
+
+        <Line />
       </div>
     </>
   );
-};
-
-export default Portfolio;
+}

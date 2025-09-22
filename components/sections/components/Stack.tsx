@@ -6,7 +6,7 @@ import {
   TooltipTrigger,
   TooltipProvider,
 } from '../../ui/tooltip';
-import { STACK_CONFIG } from '@/config/site';
+import { STACK_CONFIG } from '@/config/stack';
 
 interface StackProps {
   isVisible: boolean;
@@ -15,8 +15,8 @@ interface StackProps {
 export default function Stack({ isVisible }: StackProps) {
   return (
     <div className="container mx-auto">
-      <div className="justify-start items-left mb-12">
-        <h2 className="text-4xl font-light underline">Stack</h2>
+      <div className="justify-start items-left mb-2">
+        <h2 className="text-2xl font-light underline ">Stack</h2>
       </div>
       <TooltipProvider>
         <div className="flex flex-wrap gap-4">

@@ -23,8 +23,8 @@ const ContactSection = ({ isVisible }: ContactSectionProps) => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
             <div>
               <p className="text-md mb-8 leading-relaxed">
-                Ready to bring your ideas to life? Let&apos;s discuss how we can work
-                together to create something amazing.
+                Ready to bring your ideas to life? Let&apos;s discuss how we can
+                work together to create something amazing.
               </p>
 
               <div className="space-y-6">

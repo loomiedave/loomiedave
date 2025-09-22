@@ -7,6 +7,7 @@ import { Providers } from '@/components/Providers';
 export const metadata: Metadata = {
   title: 'Benjamin David',
   description: 'Full-Stack Developer',
+  icons: '/spiderman.jpg',
 };
 
 export default function RootLayout({

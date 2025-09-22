@@ -1,12 +1,11 @@
 import React from 'react';
 
-import { CONTACT_DETAILS } from '@/config/site';
+import { CONTACT_DETAILS } from '@/config/contact';
 import { Card, CardContent } from '@/components/ui/card';
 
 interface ContactDetailsListProps {
   isVisible: boolean;
 }
-
 
 const ContactDetailsList: React.FC<ContactDetailsListProps> = ({
   isVisible,
