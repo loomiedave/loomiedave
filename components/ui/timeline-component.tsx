@@ -9,7 +9,7 @@ import {
 import Image from 'next/image';
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
-import { Separator } from './separator';
+import { Separator } from '@/components/ui/Separator';
 import {
   Collapsible,
   CollapsibleContent,
