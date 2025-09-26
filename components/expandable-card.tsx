@@ -59,7 +59,7 @@ export default function ExpandableCard({ cards }: ExpandableCardProps) {
             <motion.div
               layoutId={`card-${active.title}-${id}`}
               ref={ref}
-              className="w-[400px] max-w-[500px] h-[70%] md:h-fit md:max-h-[70%] flex flex-col bg-white dark:bg-neutral-900 rounded-2xl overflow-hidden"
+              className="w-[400px] md:w-[80%] md:max-w[80%] max-w-[500px] h-[70%] md:h-fit md:max-h-[70%] flex flex-col bg-white dark:bg-neutral-900 rounded-2xl overflow-hidden"
             >
               <div>
                 <div className="flex justify-between items-start p-2">

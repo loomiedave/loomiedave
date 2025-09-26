@@ -9,11 +9,7 @@ interface gridProps {
 
 export default function SocialMediaGrid({ isVisible }: gridProps) {
   return (
-    <div
-      className={`transition-all duration-700 delay-500 ${
-        isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
-      }`}
-    >
+    <div>
       <h2 className="text-lg underline text-center mb-8">Connect with me</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-4xl mx-auto">
         {SOCIAL_CONFIG.map((SOCIAL_CONFIG, index) => (

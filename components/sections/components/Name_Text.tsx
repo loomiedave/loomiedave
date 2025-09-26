@@ -7,11 +7,7 @@ interface props {
 export default function Name_Text({ isVisible }: props) {
   return (
     <div className="flex-1 min-w-0">
-      <div
-        className={`transition-all duration-700 delay-300 ${
-          isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
-        }`}
-      >
+      <div>
         <div className="mb-6">
           <div className="flex items-center gap-3 mb-2">
             <p className="relative z-20 bg-gradient-to-b from-neutral-200 to-neutral-500 bg-clip-text py-6 text-sm font-bold text-transparent md:text-3xl">
