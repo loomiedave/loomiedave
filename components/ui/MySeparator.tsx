@@ -1,6 +1,6 @@
 import { cn } from '@/lib/utils';
 
-export default function Separator({ className }: { className?: string }) {
+export default function MySeparator({ className }: { className?: string }) {
   return (
     <div
       className={cn(
