@@ -27,9 +27,9 @@ const iconMap = {
 export type TimelineEntry = {
   id: string;
   title?: string; // Company name or Project title
-  subtitle?: string; // Optional (e.g. employment type, project type)
-  period?: string; // Employment period or project period
-  logo?: string; // Company logo, optional for projects
+  subtitle?: string; // -- this is optiional
+  period?: string; // Employment period and project period
+  logo?: string; // Company logo also optional
   icon?: keyof typeof iconMap;
   description?: string;
   skills?: string[];

@@ -3,92 +3,61 @@ import type { TimelineEntry } from '@/components/ui/timeline-component';
 export const WORK_EXPERIENCE: TimelineEntry[] = [
   {
     id: '1',
-    title: 'Acme Inc.',
-    logo: 'https://assets.chanhdai.com/images/companies/quaric.svg',
-    isCurrent: true, // from isCurrentEmployer
+    title: 'District Prefectorale de Football Lome Golfe ( D.P.F.L.G )',
+    logo: '/dpflglogo.svg',
+    isCurrent: true,
     children: [
       {
         id: '1-1',
-        title: 'Senior Software Engineer',
-        subtitle: 'Full-time', // employmentType
-        period: 'Jan 2022 - Present', // employmentPeriod
-        description:
-          'Leading a team of developers to build scalable web applications.',
+        title: 'Software Engineer ',
+        subtitle: 'Full-time',
+        period: 'Jul 2025 - Present',
+        description: `- Developing the official digital platform for the District Prefectorale de Football Lomé Golfe [DPFLG](https://dpflg.vercel.app), used for federation communication and club information.
+- Built a secure player license registration and verification system to digitize and streamline administrative workflows.
+- Designed a reliable backend structure for managing player data, club records, and official documentation.
+- Implemented a clean, maintainable UI focused on clarity, accessibility, and ease of use for staff and officials.
+- Optimized the system for stability, predictable performance, and long-term scalability as federation operations grow.`,
         icon: 'code',
-        skills: ['JavaScript', 'React', 'Node.js'],
+        skills: ['NextJs', 'Clerk Auth', 'Node.js', 'Neon DB'],
         isExpanded: true,
       },
       {
         id: '1-2',
-        title: 'Software Engineer',
+        title: 'Project Manager',
         subtitle: 'Full-time',
-        period: 'Jan 2020 - Dec 2021',
-        description:
-          'Developed and maintained web applications using modern technologies.',
+        period: 'Jul 2025 - Present',
+        description: `Before I was appointed the position of lead engineer , I led the development and management of the official DPFLG digital platform, overseeing project structure, technical planning, and system implementation. Coordinated workflows, built core features, and ensured the platform remained stable, scalable, and easy for federation staff to operate.`,
         icon: 'code',
         skills: ['HTML', 'CSS', 'JavaScript'],
       },
     ],
   },
   {
-    id: 'quaric',
-    title: 'Quaric Co., Ltd.',
-    logo: 'https://assets.chanhdai.com/images/companies/quaric.svg',
+    id: 'aws',
+    title: 'Absolute Wellness Services',
+    logo: '/awslogo.jpg',
     isCurrent: true,
     children: [
       {
         id: '30d3a9fb-021d-452a-9d27-83655369b4b9',
-        title: 'Software Engineer',
+        title: 'Web Developer',
         subtitle: 'Part-time',
-        period: '03.2024 — present',
+        period: '03.2025 — 05.2025',
         icon: 'code',
-        description: `- Integrated VNPAY-QR for secure transactions.
-- Registered the e-commerce site with [online.gov.vn](https://online.gov.vn) for compliance.
-- Developed online ordering to streamline purchases.
-- Build and maintain ZaDark.com with Docusaurus, integrating AdSense.
-- Develop and maintain the ZaDark extension for Zalo Web on Chrome, Safari, Edge, and Firefox — with 15,000+ active users via Chrome Web Store.`,
+        description: `- Implemented responsive UI to ensure seamless experience across desktop and mobile devices.  
+- Integrated form handling for insurance quote requests, streamlining the user’s application flow.  
+- Optimized content and structure for search visibility and SEO best practices.  
+- Built backend logic to validate form submissions, persist data, and manage lead entries securely.  
+- Improved page performance via code splitting, image optimization, and lazy loading to reduce load times.`,
         skills: [
           'Next.js',
-          'Strapi',
-          'Auth0',
-          'VNPAY-QR',
-          'Docker',
-          'NGINX',
-          'Google Cloud',
-          'Docusaurus',
-          'Extension',
-          'Research',
-          'Project Management',
+          'Node.js',
+          'Form Handling',
+          'SEO Optimization',
+          'UI / UX Design',
+          'Performance Optimization',
         ],
         isExpanded: true,
-      },
-      {
-        id: '7586afb2-40e8-49c4-8983-2254c9446540',
-        title: 'Product Designer',
-        subtitle: 'Part-time',
-        period: '03.2024 — present',
-        icon: 'design',
-        description: `- Design UI/UX for Quaric Website with a seamless experience.
-- Develop a Design System for consistency and efficiency.
-- Create Quaric's brand identity, including logo and guidelines.`,
-        skills: [
-          'UI/UX Design',
-          'UX Writing',
-          'Design System',
-          'Brand Design',
-          'Figma',
-        ],
-      },
-      {
-        id: '991692c4-7d02-4666-8d31-933c4831768d',
-        title: 'Founder & Director',
-        subtitle: 'Part-time',
-        period: '03.2024 — present',
-        icon: 'business',
-        description: `- Lead and manage the company's strategy.
-- Oversee technical teams and product development.
-- Manage relationships with customers and partners.`,
-        skills: ['Business Ownership', 'Business Law', 'Business Tax'],
       },
     ],
   },

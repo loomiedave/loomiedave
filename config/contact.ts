@@ -22,7 +22,7 @@ export const CONTACT_DETAILS = [
   {
     icon: Briefcase,
     label: 'Experience',
-    value: '3+ Years',
+    value: '4+ Years',
     href: null,
   },
 ];

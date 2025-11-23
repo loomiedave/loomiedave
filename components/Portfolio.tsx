@@ -10,7 +10,7 @@ import HeroSection from '@/components/sections/HeroSection';
 import AboutSection from '@/components/sections/AboutSection';
 import ProjectsSection from '@/components/sections/ExperienceSection';
 import ExperienceSection from '@/components/sections/ProjectSection';
-import ContactSection from '@/components/sections/ContactSection';
+// import ContactSection from '@/components/sections/ContactSection';
 import Line from './ui/Line';
 
 export default function Portfolio() {
@@ -63,10 +63,6 @@ export default function Portfolio() {
         <Line />
 
         <ExperienceSection isVisible={visibleSections.has('experience')} />
-
-        <Line />
-
-        <ContactSection isVisible={visibleSections.has('contact')} />
 
         <Line />
       </div>

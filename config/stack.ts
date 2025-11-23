@@ -21,6 +21,10 @@ export const STACK_CONFIG = {
       icon: 'https://skillicons.dev/icons?i=nodejs',
     },
     {
+      name: 'ExpressJs',
+      icon: 'https://skillicons.dev/icons?i=expressjs',
+    },
+    {
       name: 'Mongo DB',
       icon: 'https://skillicons.dev/icons?i=mongodb',
     },

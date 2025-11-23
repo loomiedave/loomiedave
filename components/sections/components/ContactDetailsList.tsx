@@ -18,10 +18,10 @@ const ContactDetailsList: React.FC<ContactDetailsListProps> = ({
             const Icon = detail.icon;
             const content = (
               <div className="flex items-start p-1 transition-colors duration-200 group">
-                <Icon className="w-4 h-4 text-primary" />
+                <Icon className="w-4 h-4 text-primary mr-2" />
                 <div className="mr-2">
                   <p className="text-sm text-foreground truncate hover:underline">
-                    {detail.value}
+                    -- {detail.value}
                   </p>
                 </div>
                 {detail.href && (

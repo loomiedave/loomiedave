@@ -9,13 +9,18 @@ export default function Name_Text({ isVisible }: props) {
     <div className="flex-1 min-w-0">
       <div>
         <div className="mb-6">
-          <div className="flex items-center gap-3 mb-2">
-            <p className="relative z-20 bg-gradient-to-b from-neutral-200 to-neutral-500 bg-clip-text py-6 text-sm font-bold text-transparent md:text-3xl">
+          <div className="flex flex-col mb-2">
+            <p className="relative z-20 bg-gradient-to-b from-neutral-200 to-neutral-500 bg-clip-text text-md font-bold text-transparent md:text-3xl">
               {SITE_CONFIG.personal.name}
             </p>
-            <div className="flex items-center justify-center w-4 h-4 md:w-6 md:h-6 bg-blue-500 rounded-full">
+
+            <p className="relative z-20 underline decoration-neutral-400 bg-gradient-to-b from-neutral-400 to-neutral-400 bg-clip-text py-6 text-sm font-bold text-transparent md:text-xl">
+              -- {SITE_CONFIG.personal.title} --
+            </p>
+
+            {/* <div className="flex items-center justify-center w-4 h-4 md:w-6 md:h-6 bg-blue-500 rounded-full">
               <Svg />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
