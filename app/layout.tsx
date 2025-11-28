@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { Analytics } from "@vercel/analytics/next"
 
 import './globals.css';
 import { kodeMono, poppins } from '@/components/font/font';
@@ -20,7 +21,10 @@ export default function RootLayout({
       <body
         className={`${kodeMono.variable} ${poppins.variable} ${kodeMono.className} antialiased bg-background text-foreground`}
       >
-        <Providers>{children}</Providers>
+        <Providers>
+          {children}
+         <Analytics/>
+        </Providers>
       </body>
     </html>
   );
