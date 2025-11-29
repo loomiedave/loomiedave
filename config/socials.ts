@@ -2,7 +2,7 @@ const socialData = {
   GitHub: {
     icon: 'https://skillicons.dev/icons?i=github',
     username: '@loomiedave',
-    url: '#',
+    url: 'https://github.com/loomiedave',
   },
   LinkedIn: {
     icon: 'https://skillicons.dev/icons?i=linkedin',
@@ -11,15 +11,10 @@ const socialData = {
   },
   X: {
     icon: '/X.png',
-    username: '@thename_sben',
-    url: '#',
+    username: '@viednonym',
+    url: 'https://x.com/viednonym',
   },
-  Instagram: {
-    icon: 'https://skillicons.dev/icons?i=instagram',
-    username: '@jagabanthaprince',
-    url: '#',
-  },
-  DailyDev: { icon: '/dailydev.png', username: '@jagaban', url: '#' },
+  DailyDev: { icon: '/dailydev.png', username: '@jagaban', url: 'https://app.daily.dev/jagaban' },
 };
 
 export const SOCIAL_CONFIG = Object.entries(socialData).map(([name, data]) => ({
